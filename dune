@@ -1,0 +1,4 @@
+(executable
+ (name fzf)
+ (libraries core async)
+ (preprocess (pps ppx_jane)))
